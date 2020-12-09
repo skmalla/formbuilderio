@@ -1,0 +1,90 @@
+.no-tab-page {
+  height: 3370px !important;
+  padding: 1px;
+}
+
+h3 {
+  font-size: 1vw !important;
+  font-weight: bold;
+  text-align: center;
+  padding: 2px;
+  color: #373e48;
+}
+
+.background span {
+  font-size: 15px;
+  color: #373e48;
+}
+
+.background {
+  background-color: #99ccff;
+  text-align: center;
+  padding: 10px !important;
+}
+.background:hover {
+  background-color: #8fbeee;
+}
+
+.mycards {
+  width: 22%;
+  float: left;
+  border: 1px solid #e8edf1;
+  height: 100%;
+  cursor: pointer;
+  margin-left: 2%;
+  margin-top: 3%;
+  background-color: rgb(242, 248, 248);
+  border-radius: 10px;
+  box-shadow: 0 3px 19px rgba(0, 0, 0, 0.1);
+}
+
+.mycards:hover {
+  background-color: #ffffff;
+}
+
+.containers {
+  border-radius: 10px;
+  box-shadow: 0 3px 19px rgba(0, 0, 0, 0.1);
+  border: 1px solid #00aff7;
+}
+
+.imgContainer {
+  margin-top: 180px;
+}
+
+.pointerForIcon {
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.icons {
+  margin: 2% 0 0 2%;
+}
+
+.icons label {
+  margin: 18px 0 0 2%;
+  color: #00aff7;
+  font-weight: bold;
+}
+
+/*pagination css starts here*/
+.pagination {
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 38px;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: #8fbeee;
+  color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+/*pagination css ends here*/
